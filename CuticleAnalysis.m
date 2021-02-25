@@ -1,3 +1,8 @@
+%% This script was written by Milda Pucetaite, Dept. of Biology, Lund University (2020)
+% The script was used to analyze infrared spectroscopy data of gymnosperm fossil cuticles
+% The script performs hierarchical cluster analysis (HCA) and principal component analysis (PCA)
+% of derivative (optional), vector-normalized data. 
+
 %%
 clear; close all; clc;
 
