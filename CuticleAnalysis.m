@@ -84,3 +84,7 @@ xlabel('PC1');
 ylabel('PC3');
 legend('location','Southeast');
 text(PCs(:,1),PCs(:,3),labels);
+
+% Plot the PC loadings
+figure
+plot(Truncated_Wavenumbers, Coeff(:,1:3))
