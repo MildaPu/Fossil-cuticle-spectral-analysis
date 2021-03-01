@@ -64,7 +64,7 @@ hm = clustergram(Preprocessed_Data', 'linkage', 'ward', 'RowLabels', labels, 'Co
 %% Perform PCA 
 [Coeff,PCs,Latent] = pca(Preprocessed_Data'); 
 
-% Uncomment mapcaplot to find the most significant PCs
+% Uncomment mapcaplot for interactive inspection of PCs
 % mapcaplot(PCs,labels); 
 figure
 gscatter(PCs(:,1),PCs(:,2),labels,'','.',30);
